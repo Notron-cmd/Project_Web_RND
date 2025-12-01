@@ -60,10 +60,6 @@ project-rnd/
 │   ├── package.json
 │   └── README.md
 │
-├── docs/
-│   ├── API_DOCUMENTATION.md
-│   ├── DATABASE_SCHEMA.md
-│   └── INSTALLATION_GUIDE.md
 │
 ├── .gitignore
 └── README.md
