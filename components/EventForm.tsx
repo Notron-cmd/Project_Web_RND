@@ -7,7 +7,7 @@ import type { Event } from "@/lib/api-client"
 
 interface EventFormProps {
   event: Event | null
-  onSave: (eventData: Omit<Event, "id" | "created_at" | "updated_at">) => Promise<void>
+  onSave: (eventData: Omit<Event, "id" | "created_at" | "updated_at" | "current_quota">) => Promise<void>
   onCancel: () => void
   isLoading?: boolean
 }
